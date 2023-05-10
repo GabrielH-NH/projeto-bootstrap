@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/style.css">
 
-  <title>Caravan - Contato</title>
+  <title>Caravan - Inscrição</title>
 </head>
 
 <body>
@@ -70,7 +70,7 @@
           <a class="nav-link" href="planos.html">Planos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="contato.html">Contato</a>
+          <a class="nav-link" href="contato.html">Contato</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modalLogin" href="#">Login</a>
@@ -83,145 +83,56 @@
 
   <section class="container">
     <div class="my-5 text-center">
-      <span class="h6 d-block">POSSUI ALGUMA DÚVIDA?</span>
-      <h1 class="display-4 text-primary">Fale Conosco</h1>
+      <span class="h6 d-block">PROGRAME A VIAGEM DO SEU SONHO</span>
+      <h1 class="display-4 text-primary">INCREVA-SE</h1>
     </div>
     <div class="row">
-      <div class="col-lg mb-5">
-        <form class="bg-light rounded p-5 box-shadow">
-          <div class="mb-3">
-            <label class="mb-2" for="clientNome">Nome</label>
-            <input type="text" class="form-control" id="clientNome">
+      <form class="col-lg-6" action="">
+        <div class="row">
+          <div class="mb-3 col-md-6">
+            <label for="inputNome">Nome</label>
+            <input type="text" class="form-control" id="inputNome" placeholder="Nome Completo">
           </div>
-          <div class="mb-3">
-            <label class="mb-2" for="clientEmail">Email</label>
-            <input type="email" class="form-control" id="clientEmail">
+          <div class="mb-3 col-md-6">
+            <label for="inputCPF">CPF</label>
+            <input type="text" class="form-control" id="inputCPF" placeholder="XXX.XXX.XXX-XX">
           </div>
-
-          <div class="mb-3">
-            <label class="mb-2" for="clientMensagem">Mensagem</label>
-            <textarea class="form-control" id="clientMensagem" rows="4"></textarea>
+          <div class="mb-3 col-md-6">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="">
           </div>
-          
-          <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-        </form>
-      </div>
-      <div class="col-lg">
-        <h2 class="h6">NOSSO ENDEREÇO</h2>
-        <a href="#"><img class="img-fluid box-shadow rounded mb-4" src="img/mapa.png" alt="Mapa"></a>
-        
-          <h2 class="h6">DADOS DE CONTATOS</h2>
-          <ul class="list-unstyled text-secondary">
-            <li>
-              caravan@caravan.com.br
-            </li>
-            <li>
-              51 99999-9999
-            </li>
-            <li>
-              De Seg. à Sexta das 8h às 18h
-            </li>
-          </ul>
-       
-
-        
-          <h2 class="h6">REDES SOCIAIS</h2>
-          <ul class="list-unstyled">
-            <li>
-              <a href="#" class="btn btn-outline-secondary d-block mb-2" style="max-width: 140px;">Facebook</a>
-            </li>
-            <li>
-              <a href="#" class="btn btn-outline-secondary d-block mb-2" style="max-width: 140px;">Instagram</a>
-            </li>
-            <li>
-              <a href="#" class="btn btn-outline-secondary d-block mb-2" style="max-width: 140px;">Twitter</a>
-            </li>
-
-          </ul>
-        
-      </div>
+          <div class="mb-3 col-md-6">
+            <label for="inputCPF">Senha</label>
+            <input type="password" class="form-control" id="inputSenha" placeholder="Senha de acesso">
+          </div>
+          <div class="mb-3 col-md-12">
+            <label for="inputEndereco">Endereço</label>
+            <input type="text" class="form-control" id="inputEndereco" placeholder="Seu endereço">
+          </div>
+          <div class="mb-3 col-md-6">
+            <label for="inputCidade">Cidade</label>
+            <input type="text" class="form-control" id="inputCidade">
+          </div>
+          <div class="mb-3 col-md-3 col-6">
+            <label for="inputSelect">Estado</label>
+            <select id="inputSelect" class="form-select" aria-label="Default select example">
+              <option selected>Selecione o Estado</option>
+              <option value="1">Rio de Janeiro</option>
+              <option value="2">Rio Grande do Sul</option>
+              <option value="3">São Paulo</option>
+              <option value="4">Ceará</option>
+              <option value="5">Acre</option>
+            </select>
+          </div>
+          <div class="mb-3 col-md-3 col-6">
+            <label for="inputCep">Cep</label>
+            <input type="text" class="form-control" id="inputCep" placeholder="xxxxxx-xxx">
+          </div>
+        </div>
+      </form>
     </div>
   </section>
 
-  <section class="container">
-    <div class="my-5 text-center">
-      <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
-      <h2 class="display-4 text-primary">Perguntas frequentes</h2>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="pergunta py-2">
-          <a class="lead" data-bs-toggle="collapse" href="#perguntasFrequentes" role="button" aria-expanded="false"
-            aria-controls="pergunta1">
-            → É possível cancelar a viagem?
-          </a>
-
-          <div class="collapse show" id="perguntasFrequentes">
-            <div class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quod temporibus aliquam aut incidunt
-              beatae nihil, earum maxime molestias? Laborum placeat fugiat labore similique recusandae sapiente odit
-              totam doloremque deserunt.
-            </div>
-          </div>
-
-        </div>
-
-        <div class="pergunta py-2">
-          <a class="lead" data-bs-toggle="collapse" href="#perguntasFrequentes2" role="button" aria-expanded="false"
-            aria-controls="pergunta2">
-            → Qual a garantia que tenho se perder o vôo?
-          </a>
-
-          <div class="collapse" id="perguntasFrequentes2">
-            <div class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quod temporibus aliquam aut incidunt
-              beatae nihil, earum maxime molestias? Laborum placeat fugiat labore similique recusandae sapiente odit
-              totam doloremque deserunt.
-            </div>
-          </div>
-
-        </div>
-
-        <div class="pergunta py-2">
-          <a class="lead" data-bs-toggle="collapse" href="#perguntasFrequentes3" role="button" aria-expanded="false"
-            aria-controls="pergunta3">
-            → Qual a principal forma de viagem?
-          </a>
-
-          <div class="collapse" id="perguntasFrequentes3">
-            <div class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quod temporibus aliquam aut incidunt
-              beatae nihil, earum maxime molestias? Laborum placeat fugiat labore similique recusandae sapiente odit
-              totam doloremque deserunt.
-            </div>
-          </div>
-
-        </div>
-
-        <div class="pergunta py-2">
-          <a class="lead" data-bs-toggle="collapse" href="#perguntasFrequentes4" role="button" aria-expanded="false"
-            aria-controls="pergunta4">
-            → Qual melhor destino de viagem?
-          </a>
-
-          <div class="collapse" id="perguntasFrequentes4">
-            <div class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quod temporibus aliquam aut incidunt
-              beatae nihil, earum maxime molestias? Laborum placeat fugiat labore similique recusandae sapiente odit
-              totam doloremque deserunt.
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-    <div class="text-center my-4">
-      <p class="small m-1">FALE CONOSCO PARA MAIS DÚVIDAS</p>
-      <a class="btn btn-primary btn-lg" href="contato.html">Entre em contato</a>
-    </div>
-  </section>
 
   <footer class="bg-dark text-white mt-5">
     <div class="container pt-4">
